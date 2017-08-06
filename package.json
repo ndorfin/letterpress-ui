@@ -1,0 +1,31 @@
+{
+  "name": "letterpress-ui",
+  "version": "1.0.0",
+  "description": "An attempt at making a web-based version of the LetterPress UI",
+  "scripts": {
+    "lint": "stylelint 'css/*.css' --config ./.stylelintrc.json",
+    "start": "python -m SimpleHTTPServer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndorfin/letterpress-ui.git"
+  },
+  "keywords": [
+    "game",
+    "SVG",
+    "CSS",
+    "HTML",
+    "JavaScript",
+    "letterpress"
+  ],
+  "author": "Shaun O'Connell <ndorfin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndorfin/letterpress-ui/issues"
+  },
+  "homepage": "https://github.com/ndorfin/letterpress-ui#readme",
+  "devDependencies": {
+    "stylelint": "^8.0.0",
+    "stylelint-config-recommended": "^1.0.0"
+  }
+}
