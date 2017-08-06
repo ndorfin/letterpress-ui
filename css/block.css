@@ -1,0 +1,5 @@
+text {text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:1;}
+use rect {all:inherit;}
+text {fill:black!important; text-anchor:middle;}
+[data-s="0"] {fill:white;}
+[data-s="1"] {fill-opacity:0.5;}
