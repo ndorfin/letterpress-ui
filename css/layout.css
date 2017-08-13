@@ -1,0 +1,47 @@
+main {
+
+}
+
+article {
+  transition: all .3s;
+}
+
+article {
+  margin: 2rem 0;
+  display: flex;
+  flex: 0 0 auto;
+}
+
+article > * {
+  transition: all .3s;
+  vertical-align: middle;
+  width: 50%;
+}
+
+article svg {
+
+}
+
+aside {
+
+}
+
+aside h1 {
+  margin: 0;
+}
+
+aside p {
+  margin: 0;
+}
+
+article[data-active="true"] {
+  margin: 0;
+}
+
+article[data-active="true"] svg {
+  width:100%;
+}
+
+article[data-active="true"] aside {
+  width:0;
+}

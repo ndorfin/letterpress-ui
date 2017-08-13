@@ -1,50 +1,234 @@
 <!DOCTYPE html>
-<html xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
-    <head>
-        <meta charset="UTF-8"/>
-        <title>WebLetterPress</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1"/>
-        <link rel="stylesheet" href="css/board.css"/>
-        <link rel="stylesheet" href="css/block.css"/>
-        <link rel="stylesheet" href="css/player.css"/>
-    </head>
-    <body>
-        <svg hidden>
-            <defs>
-                <g id="s">
-                    <rect x="0" y="0" width="1" height="1"/>
-                    <text x="0.5" y="0.8" font-size="0.75">?</text>
-                </g>
-            </defs>
+<html lang="en" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WebLetterPress</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/board.css" />
+    <link rel="stylesheet" href="css/block.css" />
+    <link rel="stylesheet" href="css/player.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+  </head>
+  <body>
+    <svg hidden>
+      <defs>
+        <style>
+          text {
+            font-size: 0.65px;
+            text-anchor: middle;
+          }
+          rect {
+            x: 0;
+            y: 0;
+            width: 1px;
+            height: 1px;
+          }
+        </style>
+        <g id="a">
+          <rect/>
+          <text x="0.5" y="0.72">A</text>
+        </g>
+        <g id="b">
+          <rect/>
+          <text x="0.5" y="0.72">B</text>
+        </g>
+        <g id="c">
+          <rect/>
+          <text x="0.5" y="0.72">C</text>
+        </g>
+        <g id="d">
+          <rect/>
+          <text x="0.5" y="0.72">D</text>
+        </g>
+        <g id="e">
+          <rect/>
+          <text x="0.5" y="0.72">E</text>
+        </g>
+        <g id="f">
+          <rect/>
+          <text x="0.5" y="0.72">F</text>
+        </g>
+        <g id="g">
+          <rect/>
+          <text x="0.5" y="0.72">G</text>
+        </g>
+        <g id="h">
+          <rect/>
+          <text x="0.5" y="0.72">H</text>
+        </g>
+        <g id="i">
+          <rect/>
+          <text x="0.5" y="0.72">I</text>
+        </g>
+        <g id="j">
+          <rect/>
+          <text x="0.5" y="0.72">J</text>
+        </g>
+        <g id="k">
+          <rect/>
+          <text x="0.5" y="0.72">K</text>
+        </g>
+        <g id="l">
+          <rect/>
+          <text x="0.5" y="0.72">L</text>
+        </g>
+        <g id="m">
+          <rect/>
+          <text x="0.5" y="0.72">M</text>
+        </g>
+        <g id="n">
+          <rect/>
+          <text x="0.5" y="0.72">N</text>
+        </g>
+        <g id="o">
+          <rect/>
+          <text x="0.5" y="0.72">O</text>
+        </g>
+        <g id="p">
+          <rect/>
+          <text x="0.5" y="0.72">P</text>
+        </g>
+        <g id="q">
+          <rect/>
+          <text x="0.5" y="0.72">Q</text>
+        </g>
+        <g id="r">
+          <rect/>
+          <text x="0.5" y="0.72">R</text>
+        </g>
+        <g id="s">
+          <rect/>
+          <text x="0.5" y="0.72">S</text>
+        </g>
+        <g id="t">
+          <rect/>
+          <text x="0.5" y="0.72">T</text>
+        </g>
+        <g id="u">
+          <rect/>
+          <text x="0.5" y="0.72">U</text>
+        </g>
+        <g id="v">
+          <rect/>
+          <text x="0.5" y="0.72">V</text>
+        </g>
+        <g id="w">
+          <rect/>
+          <text x="0.5" y="0.72">W</text>
+        </g>
+        <g id="x">
+          <rect/>
+          <text x="0.5" y="0.72">X</text>
+        </g>
+        <g id="y">
+          <rect/>
+          <text x="0.5" y="0.72">Y</text>
+        </g>
+        <g id="z">
+          <rect/>
+          <text x="0.5" y="0.72">Z</text>
+        </g>
+      </defs>
+    </svg>
+    <main>
+      <article>
+        <svg viewBox="0 0 5 5">
+          <use xlink:href="#a" x="0" y="0" data-p="2" data-s="2" />
+          <use xlink:href="#b" x="1" y="0" data-p="2" data-s="1" />
+          <use xlink:href="#c" x="2" y="0" data-p="1" data-s="1" />
+          <use xlink:href="#d" x="3" y="0" data-p="1" data-s="2" />
+          <use xlink:href="#e" x="4" y="0" data-p="1" data-s="2" />
+          <use xlink:href="#f" x="0" y="1" data-p="2" data-s="1" />
+          <use xlink:href="#g" x="1" y="1" data-p="2" data-s="1" />
+          <use xlink:href="#h" x="2" y="1" data-p="2" data-s="1" />
+          <use xlink:href="#i" x="3" y="1" data-p="1" data-s="1" />
+          <use xlink:href="#j" x="4" y="1" data-p="1" data-s="2" />
+          <use xlink:href="#k" x="0" y="2" data-p="1" data-s="1" />
+          <use xlink:href="#l" x="1" y="2" data-p="0" data-s="0" />
+          <use xlink:href="#m" x="2" y="2" data-p="2" data-s="1" />
+          <use xlink:href="#n" x="3" y="2" data-p="1" data-s="1" />
+          <use xlink:href="#o" x="4" y="2" data-p="1" data-s="2" />
+          <use xlink:href="#p" x="0" y="3" data-p="0" data-s="0" />
+          <use xlink:href="#q" x="1" y="3" data-p="0" data-s="0" />
+          <use xlink:href="#r" x="2" y="3" data-p="1" data-s="1" />
+          <use xlink:href="#s" x="3" y="3" data-p="1" data-s="1" />
+          <use xlink:href="#t" x="4" y="3" data-p="1" data-s="1" />
+          <use xlink:href="#u" x="0" y="4" data-p="1" data-s="1" />
+          <use xlink:href="#v" x="1" y="4" data-p="0" data-s="0" />
+          <use xlink:href="#w" x="2" y="4" data-p="2" data-s="1" />
+          <use xlink:href="#x" x="3" y="4" data-p="0" data-s="0" />
+          <use xlink:href="#y" x="4" y="4" data-p="0" data-s="0" />
         </svg>
-        <article>
-            <svg viewBox="0 0 5 5">
-                <use xlink:href="#s" x="0" y="0" data-p="2" data-s="2" />
-                <use xlink:href="#s" x="1" y="0" data-p="2" data-s="1" />
-                <use xlink:href="#s" x="2" y="0" data-p="1" data-s="1" />
-                <use xlink:href="#s" x="3" y="0" data-p="1" data-s="2" />
-                <use xlink:href="#s" x="4" y="0" data-p="1" data-s="2" />
-                <use xlink:href="#s" x="0" y="1" data-p="2" data-s="1" />
-                <use xlink:href="#s" x="1" y="1" data-p="2" data-s="1" />
-                <use xlink:href="#s" x="2" y="1" data-p="2" data-s="1" />
-                <use xlink:href="#s" x="3" y="1" data-p="1" data-s="1" />
-                <use xlink:href="#s" x="4" y="1" data-p="1" data-s="2" />
-                <use xlink:href="#s" x="0" y="2" data-p="1" data-s="1" />
-                <use xlink:href="#s" x="1" y="2" data-p="0" data-s="0" />
-                <use xlink:href="#s" x="2" y="2" data-p="2" data-s="1" />
-                <use xlink:href="#s" x="3" y="2" data-p="1" data-s="1" />
-                <use xlink:href="#s" x="4" y="2" data-p="1" data-s="2" />
-                <use xlink:href="#s" x="0" y="3" data-p="0" data-s="0" />
-                <use xlink:href="#s" x="1" y="3" data-p="0" data-s="0" />
-                <use xlink:href="#s" x="2" y="3" data-p="1" data-s="1" />
-                <use xlink:href="#s" x="3" y="3" data-p="1" data-s="1" />
-                <use xlink:href="#s" x="4" y="3" data-p="1" data-s="1" />
-                <use xlink:href="#s" x="0" y="4" data-p="1" data-s="1" />
-                <use xlink:href="#s" x="1" y="4" data-p="0" data-s="0" />
-                <use xlink:href="#s" x="2" y="4" data-p="2" data-s="1" />
-                <use xlink:href="#s" x="3" y="4" data-p="0" data-s="0" />
-                <use xlink:href="#s" x="4" y="4" data-p="0" data-s="0" />
-            </svg>
-        </article>
-    </body>
+        <aside>
+          <h1>Your turn</h1>
+          <p>Player name</p>
+        </aside>
+      </article>
+      <article>
+        <svg viewBox="0 0 5 5">
+          <use xlink:href="#z" x="0" y="0" data-p="2" data-s="2" />
+          <use xlink:href="#b" x="1" y="0" data-p="2" data-s="1" />
+          <use xlink:href="#c" x="2" y="0" data-p="1" data-s="1" />
+          <use xlink:href="#d" x="3" y="0" data-p="1" data-s="2" />
+          <use xlink:href="#e" x="4" y="0" data-p="1" data-s="2" />
+          <use xlink:href="#f" x="0" y="1" data-p="2" data-s="1" />
+          <use xlink:href="#g" x="1" y="1" data-p="2" data-s="1" />
+          <use xlink:href="#h" x="2" y="1" data-p="2" data-s="1" />
+          <use xlink:href="#i" x="3" y="1" data-p="1" data-s="1" />
+          <use xlink:href="#j" x="4" y="1" data-p="1" data-s="2" />
+          <use xlink:href="#k" x="0" y="2" data-p="1" data-s="1" />
+          <use xlink:href="#l" x="1" y="2" data-p="0" data-s="0" />
+          <use xlink:href="#m" x="2" y="2" data-p="2" data-s="1" />
+          <use xlink:href="#n" x="3" y="2" data-p="1" data-s="1" />
+          <use xlink:href="#o" x="4" y="2" data-p="1" data-s="2" />
+          <use xlink:href="#p" x="0" y="3" data-p="0" data-s="0" />
+          <use xlink:href="#q" x="1" y="3" data-p="0" data-s="0" />
+          <use xlink:href="#r" x="2" y="3" data-p="1" data-s="1" />
+          <use xlink:href="#s" x="3" y="3" data-p="1" data-s="1" />
+          <use xlink:href="#t" x="4" y="3" data-p="1" data-s="1" />
+          <use xlink:href="#u" x="0" y="4" data-p="1" data-s="1" />
+          <use xlink:href="#v" x="1" y="4" data-p="0" data-s="0" />
+          <use xlink:href="#w" x="2" y="4" data-p="2" data-s="1" />
+          <use xlink:href="#x" x="3" y="4" data-p="0" data-s="0" />
+          <use xlink:href="#y" x="4" y="4" data-p="0" data-s="0" />
+        </svg>
+        <aside>
+            <h1>Your turn</h1>
+            <p>Player name</p>
+          </aside>
+      </article>
+      <article>
+        <svg viewBox="0 0 5 5">
+            <use xlink:href="#a" x="0" y="0" data-p="0" data-s="0" />
+            <use xlink:href="#b" x="1" y="0" data-p="0" data-s="0" />
+            <use xlink:href="#c" x="2" y="0" data-p="0" data-s="0" />
+            <use xlink:href="#d" x="3" y="0" data-p="0" data-s="0" />
+            <use xlink:href="#e" x="4" y="0" data-p="0" data-s="0" />
+            <use xlink:href="#f" x="0" y="1" data-p="0" data-s="0" />
+            <use xlink:href="#g" x="1" y="1" data-p="0" data-s="0" />
+            <use xlink:href="#h" x="2" y="1" data-p="0" data-s="0" />
+            <use xlink:href="#i" x="3" y="1" data-p="0" data-s="0" />
+            <use xlink:href="#j" x="4" y="1" data-p="0" data-s="0" />
+            <use xlink:href="#k" x="0" y="2" data-p="0" data-s="0" />
+            <use xlink:href="#l" x="1" y="2" data-p="0" data-s="0" />
+            <use xlink:href="#m" x="2" y="2" data-p="0" data-s="0" />
+            <use xlink:href="#n" x="3" y="2" data-p="0" data-s="0" />
+            <use xlink:href="#o" x="4" y="2" data-p="0" data-s="0" />
+            <use xlink:href="#p" x="0" y="3" data-p="0" data-s="0" />
+            <use xlink:href="#q" x="1" y="3" data-p="0" data-s="0" />
+            <use xlink:href="#r" x="2" y="3" data-p="0" data-s="0" />
+            <use xlink:href="#s" x="3" y="3" data-p="0" data-s="0" />
+            <use xlink:href="#t" x="4" y="3" data-p="0" data-s="0" />
+            <use xlink:href="#u" x="0" y="4" data-p="0" data-s="0" />
+            <use xlink:href="#v" x="1" y="4" data-p="0" data-s="0" />
+            <use xlink:href="#w" x="2" y="4" data-p="0" data-s="0" />
+            <use xlink:href="#x" x="3" y="4" data-p="0" data-s="0" />
+            <use xlink:href="#y" x="4" y="4" data-p="0" data-s="0" />
+        </svg>
+        <aside>
+            <h1>Your turn</h1>
+          </aside>
+      </article>
+    </main>
+  </body>
 </html>
